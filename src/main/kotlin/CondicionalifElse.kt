@@ -10,8 +10,6 @@ fun main(args: Array<String>) {
         println("É impar!")
     }
 
-    val list = listOf("Palmeiras", "São Paulo", "Corinthians")
-
     val random = Random().nextInt(3)
 
     if (random == 0) {
